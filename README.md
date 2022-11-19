@@ -1,4 +1,5 @@
 <div style="text-align:center;”> 
+
 <h1 style="text-align: center;">[ Bucket Anti-Cheat ]</h1>
 <h3 style="text-align: center;">[ A B O U T ]</h3>
 BAC - is a python script, what protect from Injection with using Listdlls tool.
