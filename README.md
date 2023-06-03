@@ -1,14 +1,16 @@
 <div align="center">
 
-# [ B.A.C ]
-### [ info ]
-BAC - is a python script, what protect from Injection with using Listdlls tool.
-### [ how-works ]
-During injection, additional annotations are added to the used application libraries. 
-My script does not let this happen.
-### [ how-to ]
-Temp.py - it is temp file what start if programm is installed.
-BAC.py - main file , what starts with your program.
-(Change File Names , and path to collect file (Code is worst and project is Forgotten))
-
+# [ Bucket Anti-Cheat ]
+### [ About project ]
+B.A.C (Bucket Anti-Cheat) - is a python solution, that protect your application from DLL injection.  
+### [ How it works? ]
+During DLL injection process, additional annotations are added to the used application DLL's libraries. 
+My solution does not let this happen and after detection new annotations kills your application and closes. 
+### [ Arguments ]
+Usage: [-h] [--protect] apppath logspath
+`-h` Shows help page
+`--protect` Enable protection mode, by default logs generation mode
+`apppath` Path to your application (.exe file)
+`logspath` Path of logs file
+  
 </div>
