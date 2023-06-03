@@ -7,10 +7,11 @@ B.A.C (Bucket Anti-Cheat) - is a python solution, that protect your application 
 During DLL injection process, additional annotations are added to the used application DLL's libraries. 
 My solution does not let this happen and after detection new annotations kills your application and closes. 
 ### [ Arguments ]
-Usage: [-h] [--protect] apppath logspath
+Usage: `[-h] [--protect] apppath logspath` 
+  ```
 - `-h` Shows help page 
 - `--protect` Enable protection mode, by default logs generation mode  
-- `apppath` Path to your application (.exe file)  
-- `logspath` Path of logs file
-  
+- `apppath` Path to your application (.exe file), required
+- `logspath` Path of logs file, required
+ ```
 </div>
