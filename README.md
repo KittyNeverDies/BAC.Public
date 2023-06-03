@@ -8,9 +8,9 @@ During DLL injection process, additional annotations are added to the used appli
 My solution does not let this happen and after detection new annotations kills your application and closes. 
 ### [ Arguments ]
 Usage: [-h] [--protect] apppath logspath
-`-h` Shows help page
-`--protect` Enable protection mode, by default logs generation mode
-`apppath` Path to your application (.exe file)
-`logspath` Path of logs file
+- `-h` Shows help page 
+- `--protect` Enable protection mode, by default logs generation mode  
+- `apppath` Path to your application (.exe file)  
+- `logspath` Path of logs file
   
 </div>
